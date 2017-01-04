@@ -1,2 +1,2 @@
 # code-samples
-course code samples will be stored in this repository
+in-class code demos are stored in this repository
