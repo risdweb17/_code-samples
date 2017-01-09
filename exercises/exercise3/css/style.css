@@ -1,5 +1,8 @@
 
 /*TYPOGRAPHY*/
+html {
+	font-size: 8px;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	padding: 2em;
@@ -7,6 +10,7 @@ body {
 
 h1 {
 	font-family: 'Lemonada', cursive;
+	font-size: 3rem;
 }
 
 p {
@@ -22,8 +26,27 @@ p span{
 	background-color: yellow;
 	border: 10px solid #ccc;
 	padding: 1em;
-	width: 500px;
-	margin-bottom: 5em;
+	margin: 1em 2em 3em 4em;
 	box-sizing: border-box;
 }
 
+.column{
+	width: 50%;
+	float: left;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+.container {
+	border: 10px solid green;
+	overflow: auto;
+}
+
+.left{
+	background: red;
+}
+
+.right{
+	background: blue;
+	color: white;
+}
