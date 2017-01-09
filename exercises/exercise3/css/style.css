@@ -11,9 +11,9 @@ p span{
 /*LAYOUT*/
 .box {
 	background-color: yellow;
+	border: 10px solid #ccc;
 	padding: 1em;
 	width: 500px;
-	border: 10px solid #ccc;
 	margin-bottom: 5em;
 	box-sizing: border-box;
 }
