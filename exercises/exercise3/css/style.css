@@ -1,0 +1,20 @@
+
+/*TYPOGRAPHY*/
+p {
+	color: green;
+}
+
+p span{
+	color: red;
+}
+
+/*LAYOUT*/
+.box {
+	background-color: yellow;
+	padding: 1em;
+	width: 500px;
+	border: 10px solid #ccc;
+	margin-bottom: 5em;
+	box-sizing: border-box;
+}
+
