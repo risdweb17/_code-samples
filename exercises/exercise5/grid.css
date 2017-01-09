@@ -4,10 +4,17 @@
 	padding: 20px;
 }
 
-.chunk{
-	height: 400px;
-	width: 25%;
-	background: gray;
+.column{
+	height: 400px;	
 	float: left;
-	margin-right: 20px;
+	background: grey;
+}
+
+.left{
+	width: 30%;
+	margin-right: 2%;
+}
+
+.right{
+	width: 68%;
 }
