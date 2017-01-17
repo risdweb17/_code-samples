@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    margin-bottom: 3em;
+}
+section {
+    flex: 1;
+    padding: 1em;
+}
+#left {
+    flex: 2;
+}
+
+/*section {
+	width: 50%;
+	display: inline-block;
+	margin-bottom: 1em;
+	vertical-align: top;
+}
+*/
+
+h1, nav {
+    float: left;
+}
+
+h1 {
+    width: 30%;
+}
+
+nav {
+    width: 70%;
+    text-align: right;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+footer {
+    /*	clear: both;*/ 
+    border-top: 1px solid #000;
+    background: red;
+    padding-top: 1em;
+}
+strong {
+    color: red;
+}
+.empty {
+    background: blue;
+    /*	height: 500px;
+	width: 300px;*/
+}
