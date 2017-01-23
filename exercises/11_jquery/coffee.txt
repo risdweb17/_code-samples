@@ -1,0 +1,18 @@
+Pouring Coffee
+
+1. Do I have coffee?
+if yes --> proceed
+if no --> I need to make coffee
+
+2. Do I have an appropriate mug?
+2a) Determine how much coffee I have
+2b) Determine if I have a mug with the corresponding capacity
+
+if yes --> proceed
+if no --> I need to find mug
+
+3. Pour coffee in mug
+
+
+
+

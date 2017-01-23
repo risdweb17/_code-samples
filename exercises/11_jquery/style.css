@@ -1,0 +1,43 @@
+body{
+	width: 80%;
+	margin: auto;
+}
+
+#h3Trigger {
+	padding: 1em;
+	background: yellow;
+}
+/* Dropdowns */
+
+.question{
+    position: relative;
+}
+
+.toggle {
+    position: absolute;
+    left: 10px;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+dt { 
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+dd {
+    margin-left: 2em;
+}
+
+.answer{ 
+    display: none; 
+}
+
+.selected {
+	background-color: green;
+}
+
+
+
