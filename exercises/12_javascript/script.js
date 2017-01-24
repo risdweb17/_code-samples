@@ -1,28 +1,20 @@
 $(document).ready(function() {
 
-  //declaring some variables
+//declaring some variables
   var x = 5; //data type number 
   var y = "5"; //data type string
 
-  console.log(x==y);
-  console.log(x===y);
+  console.log(x==y); //true
+  console.log(x===y); //false
 
   var z = 15;
   var s = 3;
 
-  //printing out the results
+//printing out the results in console
   console.log(x + z);
   console.log(x == y);
   console.log(x === y);
   console.log("String"+ x + "concatenation"); //strings go in quotation marks and should be separate from variables
-
-
-  function addVars() {
-     var sum = s + z;
-     console.log(sum);
-  }
-
-  addVars();
 
   function getArea(width, height) {
     return width*height;
@@ -30,9 +22,10 @@ $(document).ready(function() {
 
   var area = getArea(9, 10);
 
+//printing out the results in html
   $("#area").text(area);
 
-  // an array
+// an array
   var carNames = [
           "Civic",
           "Prius",
@@ -45,7 +38,7 @@ $(document).ready(function() {
   console.log(carNames[5]);
   console.log(carNames.length);
 
-  //conditionals
+//conditionals
   function checkArray() {
      console.log(carNames.length < 3);
      
@@ -60,31 +53,30 @@ $(document).ready(function() {
   checkArray();
 
 //loops
-var bar = "<div class='bar'></div>"
 
+  var n = 0;
+  while(n < carNames.length){
+    console.log(carNames[n]);
+    n = n+1;
+  }
 
-var n = 0;
-while(n < carNames.length){
-  console.log(carNames[n]);
-  n = n+1;
-}
+  for(var m = 0; m < 6; m++){
+    console.log(carNames[m]);
+  }
 
-for(var m = 0; m < 6; m++){
-  console.log(carNames[m]);
-}
+  var bar = "<div class='bar'></div>"
+  var i = 0; // initialize counter
+  function delayedLoop(){        //  declare the function
+    setTimeout(function () { 
+        $("body").append(bar);   
+        i++;                     //  increment the counter
+        if (i < 500) {           //  if the counter < 500, call the loop function 
+           delayedLoop()         
+        }                        
+     }, 800); // 800ms delay
+  }
 
-var i = 0;
-function delayedLoop(){
-  setTimeout(function () { 
-      $("body").append(bar);   //  your code here
-      i++;                     //  increment the counter
-      if (i < 500) {            //  if the counter < 10, call the loop function 
-         delayedLoop()         //  ..  again which will trigger another 
-      }                        //  ..  setTimeout()
-   }, 800); // 800ms delay
-}
-
-delayedLoop();
+  delayedLoop();                //  call the function
 
 });
 
