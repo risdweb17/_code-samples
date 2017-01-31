@@ -14,14 +14,13 @@ $(document).ready(function(){
 		console.log(choice2);
 		if(choice1===choice2){
 	   		score++;
-	   		$("#score").text(score);
-	   		
 	   		if (score===3){
 	   			endGame();
 	   		} else {
 	   			console.log(score);
 	   			console.log("correct");
 	   			$("#message").text("Correct!");
+	   			$("#score").text(score);
 	   		}			   		
 		}
 	   	else {
@@ -33,6 +32,7 @@ $(document).ready(function(){
 
 	function endGame(){
 		console.log("end game");
+		$("#score").text(score);
 	   	$("#message").text("Yay! You've beat the game.");
 	}
 });

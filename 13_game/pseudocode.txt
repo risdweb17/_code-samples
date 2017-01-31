@@ -1,0 +1,13 @@
+1. Prepare 2 sets of 3 items
+   ---> 2 arrays of 3 items (later, try to lay out elements in HTML first)
+   ---> Declare counter variable to keep score
+2. Display all items on webpage
+	--> attach class/id to items to correspond to "key"
+3. "Listening" to users clicking on items
+	--> When user clicks on item, determine the class/id of that item
+4. Check if what user clicked on first is a match with what user clicked on after
+	--> Compare the class/id of the two clicks
+		4a. If the pair is a match, output "You're correct!"
+		4b. Else, output "Wrong!"
+5. When all pairs are found, end the game
+	--> Counter equals to number of pairs
