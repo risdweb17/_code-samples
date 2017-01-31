@@ -78,5 +78,9 @@ $(document).ready(function() {
 
   delayedLoop();                //  call the function
 
+
+
+
+
 });
 
