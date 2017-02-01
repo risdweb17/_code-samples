@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Panoptics</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Images</name>
+			<Placemark>
+				<name>The Metropolitan Museum of Art</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/0QAqO_WNmjMXGhzMMScMKB-FfL3JBmbnktvsJPgjtJBQ7PPuGgi-h-IQrk4Rqf_YaPYRSdEP7a3aCCqo9tXthzGYHSN-FtikjQ-Z7ivX0N3hZzsX4D1QqCOuEg6MGcLy" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1576-E65100</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/0QAqO_WNmjMXGhzMMScMKB-FfL3JBmbnktvsJPgjtJBQ7PPuGgi-h-IQrk4Rqf_YaPYRSdEP7a3aCCqo9tXthzGYHSN-FtikjQ-Z7ivX0N3hZzsX4D1QqCOuEg6MGcLy</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.963244,40.7794366,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Museum of Modern Art</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/KbEYufirVsUIFb__1_6NP758-PZzZvsJqm3Yst6e_y_qbeQjZVUcUQIqgyg7AuY9n0tc-uBbDX1cUApxZqJ9m4LED_8edEfxTajpCK8Qq90FUEKtzxTXENjV6b8U1vdqyA" height="200" width="auto" /><br><br>Stitching]]></description>
+				<styleUrl>#icon-1576-F9A825</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/KbEYufirVsUIFb__1_6NP758-PZzZvsJqm3Yst6e_y_qbeQjZVUcUQIqgyg7AuY9n0tc-uBbDX1cUApxZqJ9m4LED_8edEfxTajpCK8Qq90FUEKtzxTXENjV6b8U1vdqyA</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.9776216,40.7614327,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Rushmore National Memorial</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/HgyX_pn5NWql7DXV-uPCwNjq7VW0XWCgZr8UytE2jBi4UeVF5Zo8aDNirVoMA-1nmRLRJ8vGmFORzdc3kGvHWWe7g9mI_prJFBA2kOQOsLca6gWCXoI-EjWcGzkjU0KN" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1576-F9A825</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/HgyX_pn5NWql7DXV-uPCwNjq7VW0XWCgZr8UytE2jBi4UeVF5Zo8aDNirVoMA-1nmRLRJ8vGmFORzdc3kGvHWWe7g9mI_prJFBA2kOQOsLca6gWCXoI-EjWcGzkjU0KN</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-103.4590667,43.8791025,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1576-E65100'>
+			<IconStyle>
+				<color>ff0051E6</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1576-F9A825'>
+			<IconStyle>
+				<color>ff25A8F9</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
