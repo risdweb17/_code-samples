@@ -1,0 +1,74 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+section{
+	border-top: 5px solid #000;
+	padding: 2em;
+}
+
+.right,.convert,.left{
+	display: inline-block;
+}
+
+.convert{
+	font-size: 100px;
+	padding-right: 15px;
+	vertical-align: top;
+}
+
+
+.units span{
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.units span:hover{
+	background: yellow;
+}
+
+
+span.selected{
+	background: yellow;
+}
+
+
+.convert{
+	padding: 0 30px;
+}
+
+p{
+	margin-top: 2em;
+}
+
+input#input{
+	width: 300px;
+	font-size: 3em;
+	outline: none;
+	border: 0;
+}
+
+#answer{
+	font-size: 3em;
+}
+
+
+textarea{
+	width: 100%;
+	height: 200px;
+	border: 1px solid #000;
+	font-size: 1em;
+}
+
+
+@media screen and (max-width: 960px){
+	.left, .right {
+		display: block;
+	}
+	.right{
+		margin-top: 1em;
+	}
+}

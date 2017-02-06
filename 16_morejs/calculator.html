@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using HTML5 APIs</title>
+	<meta name="description" content="Demo page for class">
+	<meta name="author" content="Marie Otsuka">
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="calculator.js"></script>
+
+</head>
+<body>
+<div id="container">
+	<header>
+		<h1>Calculator</h1>
+	</header>
+
+	<section id="calculator">
+		
+		<form id="converter" method="post" action="">
+			 <div class="left">   
+			    <input type="number" name="input" id="input" value="1" />
+
+			    <div class="units" id="from">
+				    <span data-unit="1" />
+				        Points</span>
+
+				    <span data-unit="12"/>
+				        Picas</span>
+
+				    <span data-unit="72" class="selected"/>
+				        Inches</span>
+				  
+				 </div>
+
+			</div>
+			<div class="convert"> &rarr;</div>
+			<div class="right">
+			    <div id="answer">6
+			    </div>
+
+			    <div class="units" id="to">
+				    <span data-unit="1" />
+				        Points</span>
+
+				    <span data-unit="12" class="selected"/>
+				        Picas</span>
+
+				    <span data-unit="72"/>
+				        Inches</span>
+				</div>
+			</div>
+		</form>
+
+		<p>
+			1 point = 1/12 pica = 1/72 inch
+		</p>
+	</section>
+</body>
+</html>
